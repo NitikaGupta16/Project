@@ -1,0 +1,426 @@
+section.header
+	{
+		background-color:black;
+	}
+section.about
+	{
+	margin-top: 90px;
+	background-color:black;
+	}	
+section.carousel-12
+	{
+		background-image: url("../images/video_bg.jpg");
+		background-position: center;
+		background-size: cover;
+		height: 400px;
+		color:white; 
+		position: relative;
+		background-attachment: fixed;
+	}
+section.contact
+	{
+		background-image: url("../images/video_bg.jpg");
+		background-position: center;
+		background-size: cover;
+		height: 750px;
+		color:white; 
+		position: relative;
+		background-attachment: fixed;
+		background-color: #F6F6F6;
+	}
+/*##########################################*/
+.logo{
+	font-size:40px;
+	color:white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(212, 209, 209, 0.16);
+}
+
+
+.navbar-brand{
+	height: 55px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.navbar-default{
+    background-color: black;
+    border-color: rgba(0,0,0,0.0);
+    transition:all .5s ;
+    -webkit-transition:all .5s ;
+    -moz-transition:all .5s ;
+
+}
+
+
+.navbar{
+	padding: 20px 20px 20px 20px;
+}
+.nav_items a{
+	color: rgba(0,0,0,0.0);
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+.nav_items  a:before{
+margin-top: -10px;
+position: absolute;
+content:"";
+background: white;
+width:20%;
+height:2px;
+transition:width .2s;
+-webkit-trasition:;
+-moz-trasition:;
+
+}
+
+.nav_items a:hover:before{
+width:80%;
+}
+
+nav a.active:before{
+width:80%;
+}
+.glyphicon-user{
+font-size: 20px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default.fixed {
+    background: rgba(68, 71, 74, 0.9);
+    padding: 0px 0px 0px 0px;
+}
+
+
+/*#################################################################################*/
+.home_text{
+	 font-family: 'Roboto', sans-serif;
+    font-size:4vw;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: white;
+    line-height: 90%;
+}
+
+
+p.home_text1{
+	text-align:center;
+}
+img.home_text{
+	vertical-align: middle;
+	width: 80%;
+}
+a.download_app{
+	margin:auto;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	display:block;
+	width:30%;
+}
+/*#################################################################################*/
+.flexslider{
+	background: rgba(255,255,255,0)!important;
+	border:rgba(255,255,255,0)!important;
+	z-index:1;
+	
+}
+
+.flex-direction-nav .flex-prev {
+    display: none;
+}
+.flex-direction-nav .flex-next {
+display: none;
+}
+
+div.overlay {
+    position: absolute;
+    background-color: rgba(134, 93, 189, 0.9);
+    height: 100%;
+    width: 100%;
+ 
+}
+div.overlay1 {
+    position: absolute;
+    background-color: rgba(130, 133, 146, 0.52);
+    height: 100%;
+    width: 100%;
+}
+
+div.overlay2 {
+    position: absolute;
+    background-color: rgba(61, 59, 64, 0.9);
+    width: 100%;
+     height: 100%;
+}
+
+/*##########################CAROUSEL OPEN##############################*/
+
+.material_red{
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 1px 1px 1px 1px;
+	border-radius: 8px;
+	background: rgb(244,67,54);
+}
+.material_pink{	
+	margin-right: 10px;
+	margin-left: 10px;
+	background:rgb(236,64,122);
+	border: 1px 1px 1px 1px;
+	border-radius: 8px;
+}
+.material_blue{
+	margin-right: 10px;
+	margin-left: 10px;
+	background: rgb(33,150,243);
+	border: 1px 1px 1px 1px;
+	border-radius: 8px;
+}
+.material_green{
+	margin-right: 10px;
+	margin-left: 10px;
+	background: #7fc242;
+	border: 1px 1px 1px 1px;
+	border-radius: 8px;
+}
+.material_orange{
+	margin-right: 10px;
+	margin-left: 10px;
+	background: #FF9800;
+	border: 1px 1px 1px 1px;
+	border-radius: 8px;
+}
+.material_grey{
+	margin-right: 10px;
+	margin-left: 10px;
+	background: rgb(255,235,59);
+	border: 1px 1px 1px 1px;
+	border-radius: 8px;
+}
+.gallery_margin{
+	margin-top: 40px;
+}
+
+
+.carousel-12 #owl-1 .owl-item .item h3 {
+	font-family: 'Pacifico', cursive;
+	color: white;
+	text-align: center;
+
+}
+.carousel-12 #owl-1 .owl-item .item h4 {
+	font-family: 'Pacifico', cursive;
+	color: white;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.carousel-12 #owl-1 .owl-item .item a:hover {
+	text-decoration: none;
+}
+.carousel-12 #owl-1 .owl-item .item img{
+width: auto;
+    margin: 0 auto;
+    display: block;
+    height: 180px;
+    width: 180px;
+}
+/*########################CAROUSEL CLOSED#################################*/
+/*########################Bottom button to up#################################*/
+a.to_home.show{
+display: block;
+   
+}
+a.to_home{
+	text-decoration: none;
+color:white;
+display: none;
+transition: all .3s;
+-moz-transition: all .3s;
+-webkit-transition: all .3s;
+ position:fixed;
+    bottom:10px;
+    right:10px;
+	font-weight:bold;	
+}
+
+.to_home:before{
+	content:"\f062 ";
+	font-family:FontAwesome;
+	color:white;
+	font-size:2em;
+	border:1px solid white;
+	border-width: 2px 2px 2px 2px;
+	border-radius: 70px;
+	margin-right:2px;
+	
+
+}
+/*########################Bottom button to up closed#################################*/
+/*########################contact form open#################################*/
+
+
+.contact h1{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+}
+
+.form_edit{
+
+	margin: auto;
+    width: 50%;
+
+}
+
+.button_edit{
+	 margin: auto;
+}
+
+.error{
+	color: red;
+}
+
+span.success{
+	font-weight:bold;
+	color:green;
+	font-family: Arial;
+	text-align:center;
+	margin-top:20px;
+	display:block;
+}
+span.notsuccess{
+	color:#DF2225;
+	font-size:12px;
+	font-family: Arial;
+	font-weight:600;
+}
+
+.not_success_border{
+    border: 1px solid red;
+	 transition:all .5s ;
+    -webkit-transition:all .5s ;
+    -moz-transition:all .5s ;
+}
+.success_border{
+	    border: 1px solid red;
+		 transition:all .5s ;
+    -webkit-transition:all .5s ;
+    -moz-transition:all .5s ;
+}
+button.submit{
+	display: inline-block;
+	margin-top:50px;
+  	width: 40%;
+    margin: 0 auto;
+    display: block;
+	margin-top:50px;
+}
+.home_text1
+	{
+		 margin: auto;
+		margin-top:100px;
+		display:block;
+	}
+/*########################contact form#################################*/
+@media screen and (max-width: 900px) and (min-width: 601px) {
+	.form_edit
+	{
+	margin: auto;
+    width: 65%;
+	}
+}
+
+@media screen and (max-width: 768) and (min-width: : 601) {
+	.home_text1
+	{
+		margin-top:0px;
+	}
+}
+@media screen and (max-width: 600px) and (min-width: 200px) {
+	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover 
+	{
+	    color: #333;
+	    background-color: rgb(255, 255, 255);
+	}
+	.nav_items a
+	{
+		background-color:white;
+	}
+	.navbar-default .navbar-nav>li>a 
+	{
+		color: black;
+	}
+	nav a.active 
+	{
+		background-color: rgb(204, 202, 208);
+	}
+	.navbar-default .navbar-nav>li>a:hover 
+	{
+		color: black;
+	}
+	.nav_items a:before 
+	{
+		background: black;
+	}
+
+	.home_text1
+	{
+		margin-top:0px;
+	    font-size: 30px;
+	}
+	div.flexslider2 ul li p
+	{
+		text-align: center;
+	}
+	.form_edit
+	{
+		margin: auto;
+		width: 80%;
+	}
+	button.submit
+	{
+		width: 50%;
+	}
+	a.download_app{
+	width:50%;
+}
+
+}
+
+@media screen and (max-width: 769px) and (min-width: : 388px) {
+	section.carousel-12
+	{
+		height: 400px;
+	}
+
+
+}
+
+@media screen and (max-width: 454px) and (min-width: 200px) {
+button.submit{
+  	width: 50%;
+	}
+}
+
+@media screen and (max-width: 768) and (min-width: 500px) {
+
+button.submit{
+  	width: 50%;
+	}
+}
+
+
+

@@ -1,0 +1,148 @@
+.navbar{
+	padding: 23px 20px 0px 20px;
+}
+section.header{
+	background-image: url("../images/video_bg.jpg");
+    background-position: center;
+    background-size: cover;
+  	height: 15vh;
+    color:white; 
+    position: relative;background-attachment: fixed;
+}
+.admin_options{
+display:none;
+}
+.admin_options_hover{
+	background-color: rgba(224, 229, 232,0.9);
+	color:black;
+	font-weight: bold;
+	padding: 30px 30px 30px 30px;
+	border: 1px 1px 1px 1px;
+	border-radius: 10px;
+position: absolute;
+display:block;
+text-align: center;
+margin-top:45px;
+transition:all 2s;
+}
+
+section.messages{
+	background-image: url("../images/video_bg.jpg");
+    background-position: center;
+    background-size: cover;
+     height: 200px;
+    color:white; 
+    position: relative;background-attachment: fixed;
+}
+div.messages{
+	padding: 20px 20px 20px 20px;
+	
+}
+section.header{
+	background-color: rgba(229,57,53,0.7);
+}
+section.messages h1{
+	text-align: center;
+	font-size: 30px;
+}
+section.messages a{
+	
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+button.submit{
+	display: inline-block;
+	margin-top:50px;
+  	width: 20%;
+    margin: 0 auto;
+    display: block;
+	margin-top:50px;
+}
+.bubble
+{
+	height: 200px;
+}
+
+.padding_bubble{
+	padding:10px;
+	border: 10px 10px 10px 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	
+	background-color: rgba(229,57,53,0.7);
+
+}
+.padding_bubble:hover
+{
+	background-color: rgba(229,57,53,1);
+	transition: all .2s;
+	-moz-transition: all .2s;
+	-webkit-transition: all .2s;
+}
+.bubble p,a
+{	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	color: white;
+	   overflow: none;
+	text-decoration: none; overflow: none;
+
+}
+
+
+
+.bubble a:hover
+{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+section.message_bubble{
+	background-image: url("../images/video_bg.jpg");
+    background-position: center;
+    background-size: cover;
+  	position: relative;
+    height: 3000px;
+    color:white; 
+    position: relative;background-attachment: fixed;
+
+}
+
+
+div.overlay3 {
+    position: absolute;
+    background-color: rgba(134, 93, 189, 0.5);
+    height: 100%;
+    width: 100%;
+ 
+}
+
+.overlay2 h1{
+margin-top:100px;	
+}
+
+
+@media screen and (max-width: 498px) and (min-width: 200px) {
+div .bubble {
+	width=490px;
+	}
+button.submit{
+  	width: 50%;
+	}
+}
+@media screen and (max-width: 454px) and (min-width: 200px) {
+button.submit{
+  	width: 50%;
+	}
+}
+
+@media screen and (max-width: 768) and (min-width: 500px) {
+	.padding_bubble{
+	  margin-right: 4vw;
+	}
+button.submit{
+  	width: 50%;
+	}
+}
